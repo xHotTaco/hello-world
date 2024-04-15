@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+
+    <!-- Agregar JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- Agregar Font Awesome -->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+
+    <!-- Spline.design -->
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.0.94/build/spline-viewer.js"></script>
+
+    <!-- Agregar SweetAlert2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.5.2/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.5.2/dist/sweetalert2.all.min.js"></script>
+
+    <!-- Agregar Estilos -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>"Hello World"</title>
+</head>
+
+<body>
+    <!-- Navbar Section -->
+    <div class="modal-background"></div>
+
+    <div class="lateral-menu">
+        <div class="lateral-menu-container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#"><b>Patreon</b></a></li>       
+            </ul>
+            <ul>
+                <li><button class="button-2" style="margin: 15px 0 15px 0;"><i class="fa-regular fa-user"></i> Usuario</button></li>
+                <li><a href="#">Repositorio</a></li>
+                <li><a href="#">Planes</a></li>
+                <li><a href="#">Documentación</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <nav>
+        <div class="nav-info-top">
+            <ul>
+                <li><button class="button-1"><i class="fa-regular fa-user"></i> Usuario</button></li>
+                <li style="font-size: 26px; font-weight: normal; margin-top: -1px;">|</li>
+                <li><a href="#">Repositorio</a></li>
+                <li><a href="#">Planes</a></li>
+                <li><a href="#">Documentación</a></li>
+            </ul>
+            <i class="fa-solid fa-caret-up triangle"></i>
+        </div>
+        <div class="nav-info-bottom">
+            <div class="info-bottom">
+                <div class="lateral-menu-button">
+                    <div class="menu-toggle first">
+                        <i></i>
+                    </div>
+                </div>
+                <div class="logo-container">
+                    <a href="#">  
+                        <span id="c1-1"></span><span id="c2-1"></span><span id="c3-1"></span><span id="c4-1"></span><span id="c5-1"></span><span id="c6-1"></span>
+                    </a>
+                </div>
+                <div class="bottom-buttons">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Patreon</a></li>       
+                    </ul>
+                </div>
+            </div>
+        </div>        
+    </nav>
+    <div class="separador-nav"></div>
+
+    <!-- Main Section -->
+    <main class="lapto-container">
+        <spline-viewer url="https://prod.spline.design/XA3c46fqfMkP0RAW/scene.splinecode"></spline-viewer>
+    </main>
+
+    <section class="landing-title-container">
+        <h1><span id="c1-2"></span><span id="c2-2"></span><span id="c3-2"></span><span id="c4-2"></span><span id="c5-2"></span><span id="c6-2"></span></h1>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3 style="line-height: 40px;">Contacto</h3>
+                <p>¿Tines preguntas?</p>
+                <button class="button-3" style="margin: 45px 0;">Formulario de contacto</button>
+            </div>
+            <div class="footer-column">
+                <h3 style="line-height: 40px;">Redes Sociales</h3>
+                <p>Ponte en contacto con nosotros a través de las redes sociales.</p>
+                <div class="row-social">
+                    <button class="button-3 nb" style="margin: 20px 0;"><i class="fa-brands fa-facebook-f"></i></button>
+                    <button class="button-3 nb" style="margin: 20px 0;"><i class="fa-brands fa-instagram"></i></button>
+                    <button class="button-3 nb" style="margin: 20px 0;"><i class="fa-brands fa-twitter"></i></button>
+                    <button class="button-3 nb" style="margin: 20px 0;"><i class="fa-brands fa-youtube"></i></button>
+                    <button class="button-3 nb" style="margin: 20px 0;"><i class="fa-brands fa-patreon"></i></button>
+                </div>
+            </div>
+            <div class="footer-column f-del"></div>
+        </div>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3 style="line-height: 40px;">Empresa</h3>
+                <ul>
+                    <li><a href="#">Hello World</a></li>
+                    <li><a href="#">Mision, Visión y Valores</a></li>
+                    <li><a href="#">Respaldado por Ceti</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3 style="line-height: 40px;">Aviso de Privacidad</h3>
+                <a href="#">Leer aviso de privasidad</a>
+            </div>
+            <div class="footer-column f-del"></div>
+        </div>
+    </footer>    
+      
+    <!-- Scripts Section -->
+    <script src="main.js"></script>
+</body>
+
+</html>
